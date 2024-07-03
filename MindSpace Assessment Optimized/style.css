@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif; /* Ensure high contrast between text and background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Consider using a dark color for text by default */
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 1em 0;
+    color: white;
+    background-color: #333; /* Use dark background for contrast */
+  }
+  
+  header h1 {
+    font-size: 1.5em; /* Adjust font size for better readability */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  img {
+    width: 20%;
+    height: 20%;
+    display: inline;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+  }
+  
